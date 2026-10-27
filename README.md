@@ -32,10 +32,6 @@ npm run serve     # dev server, not re-tested
 
 Results: 18 of 19 unit tests pass. `about-page.spec.ts` fails because it still expects the text "created by Yermolenko Denys" while the page names a different author. A plain `npm run build` fails because the repository has no ESLint config file, hence the flag above. The Cypress e2e tests were not run (`cypress.json` has a typo in `baseUrl`: `localohost`).
 
-## Reports
-
-- Lab 1, client-side web application: https://docs.google.com/document/d/1DA-2KIb3iIWvW9rG2TKDVw9RlY9K2o94dSdWw9rHfVA/edit?usp=sharing
-- Lab 2, testing the client side: https://docs.google.com/document/d/1DdzY2W_dKJudMX8_gA48JyROiNJx2Yf8DJSevX_PNTI/edit?usp=sharing
 
 ## Note
 
